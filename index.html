@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
@@ -12,6 +12,50 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
+	<title>Nina Carducci - Photographe</title>
+	<link rel="icon" type="image/png" href="/assets/images/favicon.png">
+	<meta name="description" content="Photographe spécialisée dans les mariages, les événements d'entreprise, 
+	les portraits et les concerts, je capturerai vos moments les plus précieux avec créativité et passion sur 
+	Bordeaux et ses environs.">
+	<link rel="canonical" href="http://127.0.0.1:5500/index.html">
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Nina Carducci - Photographe">
+	<meta name="twitter:description" content="hotographe spécialisée dans les mariages, les événements d'entreprise, 
+	les portraits et les concerts, je capturerai vos moments les plus précieux avec créativité et passion sur 
+	Bordeaux et ses environs.">
+	<meta name="twitter:image" content="https://nina-carducci.github.io/assets/images/nina.png">
+	<meta name="twitter:site" content="@Nina_Carducci">
+	<!-- Facebook Card -->
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Nina Carducci - Photographe">
+	<meta property="og:description" content="Photographe spécialisée dans les mariages, les événements d'entreprise, 
+	les portraits et les concerts, je capturerai vos moments les plus précieux avec créativité et passion sur 
+	Bordeaux et ses environs.">
+	<meta property="og:image" content="https://nina-carducci.github.io/assets/images/nina.png">
+	<meta property="og:url" content="URL_de_votre_site_web">
+	<meta name="robots" content="index, follow">
+	<meta name="language" content="en-EN">
+	<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci - Photographe",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "FR"
+		  },
+		  "telephone": "05 56 67 78 89",
+		  "openingHours": [
+			"Mo-Fr 10:00-19:00"
+		  ],
+		  "image": "https://nina-carducci.github.io/assets/images/nina.png",
+  		  "priceRange": "50 - 400"
+		}
+	</script>
 </head>
 <body>
 <div class="top-header">
@@ -22,7 +66,7 @@
 			<li><a href="#gallery">Gallery</a></li>
 			<li><a href="#services">Service</a></li>
 			<li><a href="#contact">Contact</a></li>
-			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt=""></a></li>
+			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Instagram"></a></li>
 		</ul>
 	</div>
 </div>
@@ -36,13 +80,13 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" class="d-block w-100" alt="...">
+				<img src="./assets/images/slider/ryoji-iwata-opti.webp" class="d-block w-100" alt="Walking man">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" class="d-block w-100" alt="...">
+				<img src="./assets/images/slider/nicholas-green-opti.webp" class="d-block w-100" alt="Happy guys in concert">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100" alt="...">
+				<img src="./assets/images/slider/edward-cisneros-opti.webp" class="d-block w-100" alt="Wedding couple dancing">
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -57,11 +101,11 @@
 </div>
 <div id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina.png">
+		<img src="./assets/images/nina-opti.webp" alt="Nina Carducci">
 	</div>
 	<div id="about-me">
 		<h3 class="about-me__title">About Me</h3>
-		<h6 class="about-me__introduction">Becoming a photographer was an easy choice for me. It felt like it was my destiny. Capturing a moment, an emotion, a situation, a place, or a glimmer of light and making them immortal, that’s what drives me.</h6>
+		<h4 class="about-me__introduction">Becoming a photographer was an easy choice for me. It felt like it was my destiny. Capturing a moment, an emotion, a situation, a place, or a glimmer of light and making them immortal, that’s what drives me.</h4>
 		<p>We spend our lives searching for happiness, and once we find it, we want to celebrate it as a photograph to share with the people we love or to show to as many people as possible.
 			This is what I have to offer, capturing these beautiful moments from my perspective, my approach, and my technique. Immortalize these moments so they bring you love, happiness, affection, and light every time you look at your photos.</p>
 	</div>
@@ -70,15 +114,15 @@
 	<h3 class="title">Portfolio</h3>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concerts" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg"/>
-			<img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg"/>
-			<img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg"/>
-			<img data-gallery-tag="Weddings" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg"/>
-			<img data-gallery-tag="Portraits" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg"/>
-			<img data-gallery-tag="Weddings" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg"/>
-			<img data-gallery-tag="Portraits" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg"/>
-			<img data-gallery-tag="Concerts" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg"/>
-			<img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg"/>
+			<img data-gallery-tag="Concerts" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-opti.webp" alt="Concert Aaron Paul"/>
+			<img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-opti.webp" alt="Business Ali Morshedlou"/>
+			<img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-opti.webp" alt="Business Jason Goodman"/>
+			<img data-gallery-tag="Weddings" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-opti.webp" alt="Weddings Hannah Busing"/>
+			<img data-gallery-tag="Portraits" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-opti.webp" alt="Portraits Ade Tunji"/>
+			<img data-gallery-tag="Weddings" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-opti.webp" alt="Weddings Jakob Owens"/>
+			<img data-gallery-tag="Portraits" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg-opti.webp" alt="Portraits Nino Van Prattenburg"/>
+			<img data-gallery-tag="Concerts" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-opti.webp" alt="Concert Austin Neill"/>
+			<img data-gallery-tag="Business" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-opti.webp" alt="Business Mateus Campos Felipe"/>
 		</div>
 	</div>
 	<div class="quote">
@@ -91,7 +135,7 @@
 	</div>
 </div>
 <div id="services">
-	<h3 class="title">My services</h3>
+	<h2 class="title">My services</h2>
 	<div class="container">
 		<div class="service">
 			<div class="service__description">
@@ -137,20 +181,23 @@
 <div id="contact">
 	<div class="container">
 		<div class="form-container">
-			<h3>Have a question? Need a quote?</h3>
+			<h2>Have a question? Need a quote?</h2>
 			<p> Don’t hesitate to contact me! I’ll get back to you within 24 hours.</p>
 			<form action="" method="post">
-				<label>Name</label>
+				<label for="name">Name</label>
 				<input type="text" name="name" id="name">
-				<label>Email</label>
+				
+				<label for="email">Email</label>
 				<input type="email" name="email" id="email">
-				<label>Message</label>
+				
+				<label for="message">Message</label>
 				<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				
 				<input type="submit" value="Send"/>
 			</form>
 		</div>
 		<div class="picture right">
-			<img src="./assets/images/camera.png">
+			<img src="./assets/images/camera-opti.webp" alt="Camera">
 		</div>
 	</div>
 </div>
